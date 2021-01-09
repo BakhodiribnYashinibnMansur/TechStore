@@ -1,0 +1,71 @@
+.footer {
+	margin-top: 4rem;
+	position: relative;
+	width: 100vw;
+	height: 20rem;
+	clip-path: polygon(0 100%, 0 30%, 10% 0, 90% 0, 100% 30%, 100% 100%, 90% 75%, 10% 75%);
+	background-color: rgba(0, 18, 185, 0.65);
+	&-link {
+		width: 70vw;
+		margin-top: 2rem;
+		margin: 0 auto;
+		height: 7rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		&-p {
+			text-transform: uppercase;
+			margin-right: 2rem;
+			font-size: 2rem;
+			color: white;
+			&:hover {
+				transform: translateY(-1rem) scale(1.1);
+				transition: all .7s;
+				color: rgb(0, 0, 0);
+			}
+		}
+	}
+	&-contact {
+		width: 70vw;
+		margin: 0 auto;
+		height: 7rem;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		&-one {
+			margin-right: 4rem;
+			display: flex;
+			&-img {
+				margin-right: 0.7rem;
+				width: 2.1rem;
+				height: 2rem;
+			}
+			&-p {
+				font-size: 1.4rem;
+				color: rgb(255, 255, 255);
+			}
+			&:hover {
+				transform: translateY(-1rem) scale(1.1);
+				transition: all .7s;
+				color: rgb(0, 0, 0);
+			}
+		}
+	}
+	&-copyright {
+		width: 100vw;
+		height: 4rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: 99999;
+		position: absolute;
+		top: 15rem;
+		left: 45rem;
+		&-p {
+			font-size: 2rem;
+			text-align: center;
+			color: rgb(255, 255, 255);
+		}
+	}
+}

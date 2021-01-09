@@ -1,0 +1,22 @@
+.container {
+	background: linear-gradient(120deg, rgba(5, 47, 110, 0.712) 45%, rgba(75, 6, 131, 0.568) 100%);
+	width: 99vw;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	overflow: hidden;
+	.TopAdds {
+		display: flex;
+		flex-direction: row;
+		width: 100vw;
+		margin-right: 0rem;
+		overflow: hidden;
+	}
+	.main-part {
+		display: flex;
+	}
+	.main-container {
+		display: flex;
+		flex-direction: column;
+	}
+}

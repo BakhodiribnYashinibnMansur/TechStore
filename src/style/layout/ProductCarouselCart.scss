@@ -1,0 +1,167 @@
+@font-face {
+	font-family: "Chopsic";
+	src: url("../../fonts/Chopsic-K6Dp.ttf");
+}
+
+.productCarts {
+	margin-top: 9rem;
+	width: 25rem;
+	margin-left: 6rem;
+	height: 40rem;
+	background-color: #fff;
+	background: repeating-linear-gradient(-45deg, rgb(46, 46, 46) 0%, rgb(0, 0, 0) 1%);
+	box-shadow: inset -1px 3px 8px 5px #808080, 2px 5px 16px 0px #00000093, 5px 5px 50px 50px #00000057;
+	&-state {
+		width: 5.5rem;
+		height: 3rem;
+		background-color: rgb(255, 0, 0);
+		display: flex;
+		justify-content: center;
+		transform: rotate(-45deg) scale(.7) translateX(-1rem) translateY(-.1rem);
+		text-transform: uppercase;
+		&-p {
+			font-size: 2rem;
+			text-align: center;
+			color: #fff;
+		}
+	}
+	&-body {
+		width: 22rem;
+		height: 38rem;
+		margin-top: -2rem;
+		margin-left: 1.5rem;
+		background-color: rgb(255, 255, 255);
+		clip-path: polygon(0% 12%, 20% 0%, 100% 0, 100% 87%, 80% 100%, 0 100%);
+		&-photo-img {
+			margin-left: 3rem;
+			height: 25rem;
+			margin-top: 1rem;
+		}
+		&-title {
+			margin-left: 1rem;
+			width: 22rem;
+			height: 4rem;
+			&-p {
+				font-size: 1.4rem;
+				word-wrap: break-word;
+				color: rgb(0, 0, 0);
+				font-family: "Chopsic", sans-serif;
+				text-transform: uppercase;
+				letter-spacing: .1rem;
+				font-weight: 200;
+			}
+		}
+		&-brand-rating {
+			margin-top: .4rem;
+			display: flex;
+			justify-content: space-between;
+		}
+		&-rating {
+			display: flex;
+			margin-left: 1rem;
+			div {
+				display: flex;
+			}
+			&-good {
+				width: 2rem;
+				height: 2rem;
+				background-color: rgb(0, 38, 255);
+				clip-path: polygon(
+					50% 0%,
+					61% 35%,
+					98% 35%,
+					68% 57%,
+					79% 91%,
+					50% 70%,
+					21% 91%,
+					32% 57%,
+					2% 35%,
+					39% 35%
+				);
+			}
+			&-bad {
+				width: 2rem;
+				height: 2rem;
+				background-color: rgb(255, 0, 0);
+				clip-path: polygon(
+					50% 0%,
+					61% 35%,
+					98% 35%,
+					68% 57%,
+					79% 91%,
+					50% 70%,
+					21% 91%,
+					32% 57%,
+					2% 35%,
+					39% 35%
+				);
+				&-inner {
+					width: 1rem;
+					margin-top: .5rem;
+					height: 1rem;
+					margin-left: 0.5rem;
+					background-color: rgb(255, 255, 255);
+					clip-path: polygon(
+						50% 0%,
+						61% 35%,
+						98% 35%,
+						68% 57%,
+						79% 91%,
+						50% 70%,
+						21% 91%,
+						32% 57%,
+						2% 35%,
+						39% 35%
+					);
+				}
+			}
+		}
+		&-brand {
+			margin-right: 1rem;
+			width: 9rem;
+			height: 4rem;
+			clip-path: polygon(100% 0, 100% 76%, 50% 100%, 0 75%, 0 0, 50% 20%);
+			background-color: rgba(0, 26, 255, 0.733);
+			box-shadow: 4px 2px 7px rgba(139, 139, 139, 0.575);
+			text-align: center;
+			&-p {
+				padding: 0.4rem;
+				margin-left: .7rem;
+				font-size: 1.2rem;
+				margin-top: .7rem;
+				color: #ffffff;
+				text-transform: uppercase;
+				font-weight: 700;
+				letter-spacing: .2rem;
+				font-family: sans-serif;
+			}
+			&:hover {
+				clip-path: polygon(50% 0, 100% 30%, 100% 100%, 50% 80%, 0 100%, 0 30%);
+				transition: all .4s;
+			}
+		}
+	}
+	&-cost {
+		margin-left: 1rem;
+		&-p {
+			margin-top: -1rem;
+			font-size: 2rem;
+			font-weight: 100;
+			letter-spacing: .2rem;
+			font-family: "Chopsic", sans-serif;
+		}
+	}
+	&-basket {
+		width: 3rem;
+		height: 3rem;
+		margin-top: -3rem;
+		margin-left: 21rem;
+		&-svg {
+			fill: rgb(255, 255, 255);
+			&:hover {
+				fill: #d3d3d3fd;
+				transform: scale(1.2);
+			}
+		}
+	}
+}

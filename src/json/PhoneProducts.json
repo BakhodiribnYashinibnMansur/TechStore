@@ -1,0 +1,130 @@
+[
+	{
+		"id": 1,
+		"name": "Iphone 12 Pro Max",
+		"price": 1399,
+		"specs": {
+			"manufacturer": "Apple",
+			"storage": 16,
+			"os": "Android",
+			"camera": 15
+		},
+		"rating": 5,
+		"image": {
+			"small": "",
+			"large": "https://affordablephonesng.com/ap/wp-content/uploads/2019/09/apple-iphone-11-pro-MAX.jpg"
+		}
+	},
+	{
+		"id": 2,
+		"name": "samsung galaxy note 20 ultra",
+		"price": 1199,
+		"specs": {
+			"manufacturer": "samsung",
+			"storage": 16,
+			"os": "Android",
+			"camera": 15
+		},
+		"rating": 5,
+		"image": {
+			"small": "",
+			"large": "https://assets.products-live.ao.com/Images/d67e4ada-b423-4b4b-9574-2d78eab80323/1280x1280/SM-N986BZWGEUA_samsung_mobile_01.jpg"
+		}
+	},
+	{
+		"id": 3,
+		"name": "xiaomi mi 11 Pro",
+		"price": 799,
+		"specs": {
+			"manufacturer": "Xiaomi",
+			"storage": 16,
+			"os": "Android",
+			"camera": 15
+		},
+		"rating": 5,
+		"image": {
+			"small": "",
+			"large": "https://diamu.com.bd/wp-content/uploads/2020/08/Xiaomi-Mi-10-Ultra-3.jpg  "
+		}
+	},
+	{
+		"id": 4,
+		"name": "samsung Galaxy s20 ultra",
+		"price": 999,
+		"specs": {
+			"manufacturer": "samsung",
+			"storage": 16,
+			"os": "Android",
+			"camera": 15
+		},
+		"rating": 4,
+		"image": {
+			"small": "",
+			"large": "https://m.media-amazon.com/images/I/612B41AhyOL._AC_SX466_.jpg"
+		}
+	},
+	{
+		"id": 5,
+		"name": "apple se 2 ",
+		"price": 399,
+		"specs": {
+			"manufacturer": "Apple",
+			"storage": 16,
+			"os": "Android",
+			"camera": 15
+		},
+		"rating": 5,
+		"image": {
+			"small": "",
+			"large": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-se-family-select-2020?wid=882&amp;hei=1058&amp;fmt=jpeg&amp;qlt=80&amp;op_usm=0.5,0.5&amp;.v=1586794486444"
+		}
+	},
+	{
+		"id": 6,
+		"name": "google pixel 5",
+		"price": 1399,
+		"specs": {
+			"manufacturer": "google",
+			"storage": 16,
+			"os": "Android",
+			"camera": 15
+		},
+		"rating": 5,
+		"image": {
+			"small": "",
+			"large": "https://images-na.ssl-images-amazon.com/images/I/71gFLfs05GL._AC_SX679_.jpg"
+		}
+	},
+	{
+		"id": 7,
+		"name": "samsung galaxy fold",
+		"price": 1399,
+		"specs": {
+			"manufacturer": "samsung",
+			"storage": 16,
+			"os": "Android",
+			"camera": 15
+		},
+		"rating": 5,
+		"image": {
+			"small": "",
+			"large": "https://image-us.samsung.com/SamsungUS/home/mobile/phones/configurator/fold2/dt_765x465/configurator-Fold2-family-02-DT-765x465.jpg"
+		}
+	},
+	{
+		"id": 8,
+		"name": "Xiaomi MI 10 ultra",
+		"price": 1399,
+		"specs": {
+			"manufacturer": "xiaomi",
+			"storage": 16,
+			"os": "Android",
+			"camera": 15
+		},
+		"rating": 5,
+		"image": {
+			"small": "",
+			"large": "https://www.powerplanetonline.com/cdnassets/funda_ultra_protection_xiaomi_mi_10_pro_01_negro_l.jpg"
+		}
+	}
+]

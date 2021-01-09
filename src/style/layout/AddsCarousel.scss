@@ -1,0 +1,81 @@
+.carousel-div {
+	width: 80rem;
+	height: 40rem;
+	background: repeating-linear-gradient(-45deg, rgb(46, 46, 46) 0%, rgb(0, 0, 0) 1%);
+	margin-top: 4rem;
+	margin-left: 2rem;
+	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.616);
+	border-radius: 2rem;
+	box-shadow: inset -1px 3px 8px 5px #383838, 2px 5px 16px 0px #0000006c, 5px 5px 50px 50px #00000057;
+}
+.carousel-outer {
+	width: 80rem;
+	height: 40rem;
+	position: relative;
+	overflow: hidden;
+}
+.triangle-div {
+	width: 7rem;
+	height: 1rem;
+	position: absolute;
+	left: 63rem;
+	top: 4rem;
+}
+.triangle-link {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 17.3px 10px 0 10px;
+	border-color: rgb(0, 153, 255) transparent transparent transparent;
+}
+.triangle-link-active {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 17.3px 10px 0 10px;
+	border-color: #09247c transparent transparent transparent;
+}
+.carousel-inner {
+	clip-path: polygon(0 0, 70% 0, 80% 14%, 100% 14%, 100% 100%, 30% 100%, 20% 86%, 0 86%);
+	width: 77rem;
+	display: flex;
+	height: 37rem;
+	margin-top: .7rem;
+	margin-left: 1.5rem;
+	overflow: hidden;
+}
+.slide-div {
+	width: 77rem;
+	height: 37rem;
+	display: flex;
+	position: relative;
+}
+.carouselImg {
+	margin-top: 1rem;
+	width: 77rem;
+	height: 37rem;
+	overflow: hidden;
+}
+.logo-div {
+	margin-top: -6rem;
+	margin-left: 2rem;
+}
+.logo-img {
+	width: 16rem;
+	height: 8rem;
+	clip-path: polygon(0 15%, 70% 15%, 80% 30%, 100% 30%, 100% 100%, 30% 100%, 20% 86%, 0 86%);
+	background-color: rgba(255, 255, 255, 0.746);
+}
+.line-div {
+	width: 42rem;
+	height: 1rem;
+	margin-top: -2rem;
+	margin-left: 30rem;
+	background-color: rgba(0, 17, 255, 0.287);
+}
+.line {
+	height: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	background-color: rgb(0, 17, 255);
+}
