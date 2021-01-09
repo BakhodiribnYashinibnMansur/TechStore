@@ -71,8 +71,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-clip-path: polygon(0 0, 70% 0, 80% 14%, 100% 14%, 100% 100%, 30% 100%, 20% 86%, 0 86%);
-//for card
-clip-path: polygon(0% 15%, 3% 0, 97% 0, 100% 15%, 100% 75%, 85% 75%, 80% 100%, 20% 100%, 15% 75%, 0 75%);
-//for navbars
-clip-path: polygon(0 0, 100% 0, 100% 80%, 85% 80%, 80% 100%, 20% 100%, 15% 80%, 0 80%);
