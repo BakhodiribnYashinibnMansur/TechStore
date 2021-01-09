@@ -1,0 +1,82 @@
+.allProducts {
+	background: repeating-linear-gradient(-45deg, rgb(46, 46, 46) 0%, rgb(0, 0, 0) 1%);
+	box-shadow: inset -1px 3px 8px 5px #808080, 2px 5px 16px 0px #00000093, 5px 5px 50px 50px #00000057;
+	width: 70vw;
+	margin-left: 40rem;
+	padding-bottom: 7rem;
+	margin-top: 2rem;
+	overflow: hidden;
+	clip-path: polygon(
+		0 0,
+		10% 0,
+		19% 2%,
+		80% 2%,
+		90% 0,
+		100% 0,
+		100% 100%,
+		90% 100%,
+		80% 98%,
+		20% 98%,
+		10% 100%,
+		0 100%
+	);
+	&-cart {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: 1fr;
+		margin-top: -7rem;
+	}
+	&-select {
+		display: flex;
+		justify-content: space-between;
+		margin-right: 2rem;
+		&-brand {
+			margin-top: 3rem;
+			margin-left: 2rem;
+			&-select {
+				background-color: #08025a;
+				color: white;
+				padding: 12px;
+				width: 150px;
+				font-size: 1.7rem;
+				border: none;
+				box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+				-webkit-appearance: button;
+				appearance: button;
+				outline: none;
+				&:hover::before {
+					color: rgba(255, 255, 255, 0.6);
+					background-color: rgba(255, 255, 255, 0.2);
+				}
+				option {
+					font-size: 1.7rem;
+					text-transform: uppercase;
+				}
+			}
+		}
+		&-sort {
+			margin-top: 3rem;
+			margin-left: 2rem;
+			&-select {
+				background-color: #08025a;
+				color: white;
+				padding: 12px;
+				width: 150px;
+				font-size: 1.7rem;
+				border: none;
+				box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+				-webkit-appearance: button;
+				appearance: button;
+				outline: none;
+				&:hover::before {
+					color: rgba(255, 255, 255, 0.6);
+					background-color: rgba(255, 255, 255, 0.2);
+				}
+				option {
+					font-size: 1.7rem;
+					text-transform: uppercase;
+				}
+			}
+		}
+	}
+}
