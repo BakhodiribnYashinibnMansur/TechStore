@@ -374,31 +374,31 @@ html {
 			width: 2.2rem;
 			height: 2.2rem;
 			transform: translateY(-2.5rem);
-			margin-left: 14rem;
-			@media (min-width: 20em) and (max-width: 37.5em) {
-				width: 2.2rem;
-				height: 2.2rem;
-				transform: translateY(-2.5rem);
-				margin-left: 14rem;
-			}
-			@media (min-width: 37.6em) and (max-width: 56.25em) {
-				width: 2.2rem;
-				height: 2.2rem;
-				transform: translateY(-2.5rem);
-				margin-left: 14rem;
-			}
-			@media (min-width: 56.26em) and (max-width: 75em) {
-				width: 2rem;
-				height: 2rem;
-				transform: translateY(.4rem);
-				margin-left: -1rem;
-			}
-			@media (min-width: 76em) and (max-width: 100em) {
-				width: 2.2rem;
-				height: 2.2rem;
-				transform: translateY(-2.5rem);
-				margin-left: 20.7rem;
-			}
+			margin-left: 20rem;
+			// @media (min-width: 20em) and (max-width: 37.5em) {
+			// 	width: 2.2rem;
+			// 	height: 2.2rem;
+			// 	transform: translateY(-2.5rem);
+			// 	margin-left: 14rem;
+			// }
+			// @media (min-width: 37.6em) and (max-width: 56.25em) {
+			// 	width: 2.2rem;
+			// 	height: 2.2rem;
+			// 	transform: translateY(-2.5rem);
+			// 	margin-left: 14rem;
+			// }
+			// @media (min-width: 56.26em) and (max-width: 75em) {
+			// 	width: 2rem;
+			// 	height: 2rem;
+			// 	transform: translateY(.4rem);
+			// 	margin-left: -1rem;
+			// }
+			// @media (min-width: 76em) and (max-width: 100em) {
+			// 	width: 2.2rem;
+			// 	height: 2.2rem;
+			// 	transform: translateY(-2.5rem);
+			// 	margin-left: 20.7rem;
+			// }
 		}
 		.search-input {
 			width: 22rem;
